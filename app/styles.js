@@ -8,4 +8,10 @@ const styles = StyleSheet.create({
         backgroundColor: '#260F0D',
         padding: 20,
 },
+overlayOne: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(38, 15, 13, 0.8)', // Cor preta com 50% de opacidade
+    justifyContent: 'center',
+    alignItems: 'center',
+},
 });
