@@ -1,0 +1,64 @@
+{
+    "listaP": [
+        {
+            "id": 1,
+            "title": "Sorvete de Morango",
+            "description": "Sorvete de morango: porque até os frutos têm direito a um verão na taça!",
+            "image": "morango",
+            "idealFor": "Ideal para quem ama um toque frutado e refrescante, perfeito para dias quentes!",
+            "flavor": "Morango simples",
+            "ingredients": ["Leite", "Creme de leite", "Açúcar", "Morango", "Essência de baunilha"],
+            "price": "R$10,00"
+        },
+        {
+            "id": 2,
+            "title": "Chocolate",
+            "description": "Sorvete de chocolate: a única coisa que derrete mais rápido que meu coração!",
+            "image": "chocolate",
+            "idealFor": "Perfeito para os chocólatras de plantão que desejam um deleite rico e cremoso",
+            "flavor": "Chocolate simples",
+            "ingredients": ["Leite", "Creme de leite", "Açúcar", "Chocolate", "Cacau em pó"],
+             "price": "R$10,00"
+        },
+        {
+            "id": 3,
+            "title": "Baunilha",
+            "description": "Baunilha é como o clássico que nunca sai de moda — sempre na moda, sempre delicioso!",
+            "image": "baunilha",
+            "idealFor": "Uma escolha clássica que agrada a todos, ideal para acompanhar qualquer sobremesa",
+            "flavor": "Baunilha simples",
+            "ingredients": ["Leite", "Creme de leite", "Açúcar", "Essência de baunilha"],
+             "price": "R$10,00"
+        },
+        {
+            "id": 4,
+            "title": "Pistache",
+            "description": "Sorvete de pistache: a escolha dos sofisticados que não têm medo de ser diferentes!",
+            "image": "pistache",
+            "idealFor": "Ideal para os aventureiros que buscam um sabor único e sofisticado, com um leve toque de noz.",
+            "flavor": "Pistache",
+            "ingredients": ["Leite", "Creme de leite", "Açúcar", "Pistache", "Nozes"],
+             "price": "R$10,00"
+        },
+        {
+            "id": 5,
+            "title": "Flocos",
+            "description": "Flocos: a mistura perfeita de chocolate e aventura em cada colherada!",
+            "image": "flocos",
+            "idealFor": "Perfeito para quem adora a combinação de cremosidade e crocância em cada colherada",
+            "flavor": "Flocos: sorvete branco com pedaços de chocolate",
+            "ingredients": ["Leite", "Creme de leite", "Açúcar", "Chocolate", "Flocos de chocolate"],
+             "price": "R$10,00"
+        },
+        {
+            "id": 6,
+            "title": "Menta",
+            "description": "Sorvete de menta: o sabor que traz memórias de infância e diversão em família.",
+            "image": "menta",
+            "idealFor": "Ideal para quem procura um sabor refrescante e vibrante, perfeito para revigorar o paladar.",
+            "flavor": "Menta com chocolate",
+            "ingredients": ["Leite", "Creme de leite", "Açúcar", "Menta", "Chocolate"],
+             "price": "R$10,00"
+        }
+    ]
+}

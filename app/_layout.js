@@ -1,5 +1,5 @@
 import { Stack } from "expo-router";
-
+import { Image } from "react-native";
 export default function RootLayout() {
   return (
     <Stack
@@ -13,10 +13,26 @@ export default function RootLayout() {
         },
         headerTitleAlign: "center", // Centraliza o título na barra de navegação
       }}
+    
     >
+      <Image
+          style={{
+            width: 200,
+            height: 200,
+            borderRadius: 300,
+            opacity: 1,
+            alignItems: "center",
+           
+          }}
+          source={require('../assets/images/imgIndex.png')}
+        />
+      
+       
       {/* <Stack.Screen name="index" options={{ headerShown: false }} /> */}
       <Stack.Screen name="index" options={{ title: "Sorveteria Lala" }} />
-      <Stack.Screen name="products" options={{ title: "Menu WP" }} />
+      <Stack.Screen name="products" options={{ title: "Menu Lala" }} />
+      <Stack.Screen name="contato" options={{ title: "Contato Lala" }} />
+      <Stack.Screen name="sobre" options={{ title: "Sobre Lala" }} />
     </Stack>
   );
 }
